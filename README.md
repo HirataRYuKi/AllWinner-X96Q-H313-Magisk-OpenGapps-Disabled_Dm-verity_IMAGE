@@ -1,9 +1,5 @@
 # AllWinner-X96Q-H313-Magisk-OpenGapps-Disabled_Dm-verity_IMAGE
 **x96q 2g/16gバージョンのものになっています。**
-### 動作するもの
-
-
-### 動作しないもの
 
 * Magisk-26.4を適応済み
 * open_gapps-arm-10.0-tvstock-20220215.zipをMagiskモジュールに変換してインストール済み（ログインもOK）
@@ -14,5 +10,6 @@
 * 一応、デバイスツリーとTWRPも公開しておきます（今のところストレージをうまく認識しない）
 * Tweakフォルダに使用したファイルなどをまとめていますので、お使いください。
 * ただ、私の端末のパーティションをddで書き出しているだけなので、動くかよくわかっていません。（自己責任でお願いします）
+* super.imgを書き込む際は「flash --disable-verity --disable-verification super super.img」で書き込んでください。
 
 **Allwinner製のライターで書き込めるようにパックしてくれ（願望）**
