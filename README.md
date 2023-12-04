@@ -1,5 +1,10 @@
 # AllWinner-X96Q-H313-Magisk-OpenGapps-Disabled_Dm-verity_IMAGE
 **x96q 2g/16gバージョンのものになっています。**
+### 動作するもの
+
+
+### 動作しないもの
+
 * Magisk-26.4を適応済み
 * open_gapps-arm-10.0-tvstock-20220215.zipをMagiskモジュールに変換してインストール済み（ログインもOK）
 * MagiskHide Props Configを使用して「NVIDIA SHIELDTV 2019」に偽造してDRMもOK
