@@ -10,5 +10,8 @@ Realeaseのほうに全部上げてます
 * 一応、デバイスツリーとTWRPも公開しておきます（今のところストレージをうまく認識しない）
 * ただ、私の端末のパーティションをddで書き出しているだけなので、動くかよくわかっていません。（自己責任でお願いします）
 * super.imgを書き込む際は「flash --disable-verity --disable-verification super super.img」で書き込んでください。
+* いろいろ分かったけど、X96Q系のuserdataが見えてる版のイメージが一番TWRPとの相性が良かった。ただ、いろいろ機能が使えなかったりする（CECが使えなかったり）
+* opengappsを入れた後、ログインしようとするとログイン画面が落ちることがあるが、adbで「adb shell pm disable-user --user 0 com.google.android.tungsten.setupwraith」を実行すると、落ちなくなる。
+* TWRP導入する方は、モジュール化したOpenGappsを使わなくてもインストールは可能。ただ、TWRPにバグがあるので、きちんと書き込めているか不明。
 
 **Allwinner製のライターで書き込めるようにパックしてくれ（願望）**
